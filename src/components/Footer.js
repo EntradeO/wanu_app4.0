@@ -13,7 +13,7 @@ class Footer extends React.Component {
         document.body.classList.add('cart_full');
        }
     }
-    render() {
+    render() { 
        return(
             <div className="container-footer">
                 <div className="bgc-footer-left"></div>
