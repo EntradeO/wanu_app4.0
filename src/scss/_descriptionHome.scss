@@ -1,0 +1,17 @@
+.DescriptionContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px 8px 20px 8px;
+    margin: 0 20px 20px 20px;
+    height: 40vh;
+    border-bottom: 1px solid $dark-blue;
+    .Desc{
+        font-family: $primaryFont;
+        color: $dark-blue;
+        margin-top: 0;
+    }
+    .DescBottom{
+        margin-bottom: 0;
+    }
+}

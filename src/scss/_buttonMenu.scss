@@ -1,0 +1,24 @@
+
+.buttonMenu:first-child{
+  border-top-left-radius: 146px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  margin: 10px 10px 0 10px;
+  @include ButtonMenu;
+}
+
+.buttonMenu:last-child{
+  margin: 10px 10px 78px 10px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 146px;
+  @include ButtonMenu;
+}
+
+.buttonMenu{
+  margin: 10px 10px 0 10px;
+  border-radius: 20px;
+  @include ButtonMenu;
+}
