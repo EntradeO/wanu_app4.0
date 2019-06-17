@@ -19,14 +19,14 @@ class Footer extends React.Component {
                 <div className="bgc-footer-left"></div>
                 <ul>
                     <li>
-                        <AnimationButton styleClass="footerButton" images={menu} href="/Menu">Menù</AnimationButton>
+                        <AnimationButton styleClass="footerButton" images={menu} href="/menu">Menù</AnimationButton>
                     </li>
                     <li>
-                        <AnimationButton styleClass="footerButton empty" images={shoppingBag} href="/Orders">Ordini</AnimationButton>
-                        <AnimationButton styleClass="footerButton full" images={shoppingBagFull} href="/Orders">Ordini</AnimationButton>
+                        <AnimationButton styleClass="footerButton empty" images={shoppingBag} href="/orders">Ordini</AnimationButton>
+                        <AnimationButton styleClass="footerButton full" images={shoppingBagFull} href="/orders">Ordini</AnimationButton>
                     </li>
                     <li>
-                        <AnimationButton styleClass="footerButton" images={news} href="/News">News</AnimationButton>
+                        <AnimationButton styleClass="footerButton" images={news} href="/news">News</AnimationButton>
                     </li>
                 </ul>
            </div>
